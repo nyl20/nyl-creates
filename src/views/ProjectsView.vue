@@ -31,33 +31,48 @@ import TabPanel from 'primevue/tabpanel';
 <template>
 <div class="container projects-box">
 
-
-        <Accordion value="0">
+        <Accordion class="accordion-style" :value="['0']" multiple>
             <AccordionPanel value="0">
                 <AccordionHeader>Works in Progress</AccordionHeader>
                 <AccordionContent>
                     <p class="m-0">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Freehanding:
                     </p>
+                    <ul>
+                        <li>Stitch (Lilo and Stitch)</li>
+                        <li>Hangyodon (Sanrio)</li>
+                    </ul>
+                    <p class="m-0">
+                        Following a Pattern:
+                    </p>
+                    <ul>
+                        <li>Soccer Ball</li>
+                        <li>Capybara</li>
+                    </ul>
                 </AccordionContent>
             </AccordionPanel>
             <AccordionPanel value="1">
                 <AccordionHeader>Completed</AccordionHeader>
                 <AccordionContent>
-                    <p class="m-0">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
-                        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Consectetur, adipisci velit, sed quia non numquam eius modi.
-                    </p>
+                    <p>Projects I have completed making from scratch (my own pattern/freehanding):</p>
+                    <ul>
+                        <li>Appa head (Avatar the Last Airbender)</li>
+                        <li>Ebifurai-no-shippo (Sumikko Gurashi)</li>
+                        <li>Turtle Coasters</li>
+                    </ul>
                 </AccordionContent>
             </AccordionPanel>
             <AccordionPanel value="2">
                 <AccordionHeader>Recommended Patterns</AccordionHeader>
                 <AccordionContent>
                     <p class="m-0">
-                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa
-                        qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
+                        Free patterns I like:
                     </p>
+                    <ul>
+                        <li>Laying Bear: <a href="https://amigurum.com/2019/10/lying-bear-crochet-pattern.html">https://amigurum.com/2019/10/lying-bear-crochet-pattern.html</a></li>
+                        <li>Elephant: <a hef="https://hellostitchesxo.com.au/amigurumi-elephant-crochet-free-pattern/">https://hellostitchesxo.com.au/amigurumi-elephant-crochet-free-pattern/</a></li>
+                        <li>Monster: <a href="https://www.instagram.com/p/CyWTlwKtRea/?igsh=MTY2aWdkbHNqZHdoNQ==">https://www.instagram.com/p/CyWTlwKtRea/?igsh=MTY2aWdkbHNqZHdoNQ==</a></li>
+                    </ul>
                 </AccordionContent>
             </AccordionPanel>
         </Accordion>
@@ -70,5 +85,9 @@ import TabPanel from 'primevue/tabpanel';
 <style>
 .projects-box {
     margin-top: 5%;
+}
+
+.accordion-style {
+    width: 100%;
 }
 </style>

@@ -30,7 +30,7 @@
     
     <div class="description">
       <div id="decription-text">
-         <h1>Ebifurai No Shippo</h1>
+         <h2>Ebifurai No Shippo</h2>
           <div class="card">
         <Galleria :value="images" :responsiveOptions="responsiveOptions" :numVisible="3" :circular="true" containerStyle="max-width: 640px" :showItemNavigators="false" :showThumbnails="true">
             <template #item="slotProps">

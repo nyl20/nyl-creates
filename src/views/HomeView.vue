@@ -76,8 +76,8 @@
   }
 
   .more-button:hover{
-    background-color: #586F7C;
-    color: #FFFFFF;
+    background-color: #97dab6;
+    /* color: #FFFFFF; */
   }
 
   .more-button {
@@ -104,7 +104,7 @@
 
   #intro-text{
     /* align-self: center; */
-    font-size: 20px;
+    /* font-size: 20px; */
     margin-bottom: 8%;
   }
 
