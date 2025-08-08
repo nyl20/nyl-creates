@@ -86,6 +86,7 @@
     margin-bottom: 15%;
     margin-top: 4%;
     text-align: center;
+    color: #000;
   }
 
   .box {

@@ -64,7 +64,7 @@ header {
   box-shadow: 0 4px 6px -6px #222;
 }
 #title-portrait {
-  max-width: 35%;
+  max-width: 40%;
   align-self: center;
 }
 h1{

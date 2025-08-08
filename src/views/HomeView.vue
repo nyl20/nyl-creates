@@ -72,20 +72,21 @@
   .p-card-body {
     /* background-color: aquamarine; */
     /* box-shadow: 10px 5px 5px red; */
-    box-shadow: 0 -0.6em 1em 0.1em #F4F4F9;
+    box-shadow: 0 -0.6em 1em 0.1em #f4f4f9;
   }
 
   .more-button:hover{
-    background-color: #97dab6;
+    background-color: #f4f4f9;
     /* color: #FFFFFF; */
   }
 
   .more-button {
     border-width: 0;
     border-radius: 10px;
-    background-color: #f4f4f9;
+    background-color: #97dab6;
     margin: 2% auto;
     padding: 2%;
+    color: #000;
   }
 
   .box {
